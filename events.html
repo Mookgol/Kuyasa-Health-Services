@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and External Resources -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/f3db6f10ca.js" crossorigin="anonymous"></script>
+    <title>Kuyasa-Health-Services</title>
+</head>
+<style>
+    /* Styling for the back to top button */
+    .scrollTop{
+        position: fixed;
+        bottom: 30px;
+        left: 30px; /* Change right to left */
+        padding: 10px 15px;
+        background-color: #053067;
+        color: #fff;
+        border-radius: 5px;
+        border-radius: 1px solid #fff;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+        scroll-behavior: smooth;
+        box-sizing: border-box;      
+    }
+    .scrollTop:hover{
+        background-color: #f7f7f7;
+        color: #000;
+    }
+
+/* The css code for the cards */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  background: #eee;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
+<body>
+    
+  <!--Hero section and navabr-->
+  <section id="hero-colour">
+    <div class="container-h">
+    <div class="navbar">
+    <div class="logo">
+    <img src="images/Group 1.png" alt="logo" width="29%">   
+    </div>
+    <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="events.html">Events</a>
+    <a href="#contact">Contact</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+<!-- Event cards -->
+
+<div class="container-events">
+    <div class="item-container-events">
+        <div class="img-container-events">
+            <img src="./images/img1.jpg" alt="Event image">
+        </div>
+
+        <div class="body-container-events">
+            <div class="overlay-events"></div>
+
+            <div class="event-info">
+                <p class="title-events">Title</p>
+                <div class="separator"></div>
+                <p class="info">Address</p>
+                <p class="price">price</p>
+
+                <div class="additional-info">
+                    <p class="info">
+                        <i class="fas fa-map-marker-alt"></i>
+                      Venue
+                    </p>
+                    <p class="info">
+                        <i class="far fa-calendar-alt"></i>
+                       Date and time
+                    </p>
+
+                    <p class="info description">
+                     This is where the information about the event will be<span>more...</span>
+                    </p>
+                </div>
+            </div>
+            <button class="action">Book it</button>
+        </div>
+    </div>
+
+    <div class="item-container-events">
+        <div class="img-container-events">
+            <img src="./images/img2.jpg" alt="Event image">
+        </div>
+
+        <div class="body-container-events">
+            <div class="overlay-events"></div>
+
+            <div class="event-info">
+                <p class="title-events">Title</p>
+                <div class="separator"></div>
+                <p class="info">Address</p>
+                <p class="price">Price</p>
+
+                <div class="additional-info">
+                    <p class="info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Venu Address
+                    </p>
+                    <p class="info">
+                        <i class="far fa-calendar-alt"></i>
+                        Time
+                    </p>
+
+                    <p class="info description">
+                        This is where the information about the event will be <span>more...</span>
+                    </p>
+                </div>
+            </div>
+            <button class="action">Book it</button>
+        </div>
+    </div>
+
+   
+    </div>
+</div>
+</div>
+</section>
+     <!-- Back to top button script-->
+<div onclick="scrollToTop()" class="scrollTop"> Top</div>
+<script>
+    function scrollToTop(){
+    window.scrollTo(0, 0);
+}
+</script>
+</body>
+</html>
