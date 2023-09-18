@@ -72,22 +72,13 @@ body {
 .btn-box .btn-join{
   margin-top: 60px;
 }
-
-.border1, .border3{
-  margin: 0;
+/* heading for about and services borders */
+.border1, .border2{
+  margin: 2%;
   text-align: center;
   font-size: 50px;
+  font-weight: 900;
 }
-
-.border2{
-  margin: 0;
-  text-align: center;
-  font-size: 50px;
-}
-.border4{
-  margin: 10%;
-}
-
 
 /* Styling for Services and The Cards/slideshow*/
 .services{
@@ -302,31 +293,54 @@ a {
   background-size: cover;
   padding-top: 32px;
 }
-/* trying to see the css cards */
+/* about us Styling*/
+.aboutUs {
+margin:2%;
 
-
-
-/**/
-#about-us-slogan {
-  font-size: 21pt;
-  font-family: "DM Serif Display";
 }
+
+.Vision { 
+  text-align: center;
+  font-size: 20px;
+ 
+
+}
+.Vision p {
+font-style: italic;
+
+}
+
+/* Style the container to provide spacing and center content */
+.container-aboutUs {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly across the container */
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Style each column */
+.column {
+  flex: 1; /* Each column takes equal width */
+  padding: 20px; /* Add spacing around each column */
+  text-align: center; /* Center-align text within columns */
+  margin: 10px; /* Add margin between columns (optional) */
+}
+
+/* Style the images within columns */
+.container-aboutUs-images {
+  max-width: 100px; /* Set a maximum width for the images */
+  margin: 0 auto 10px; /* Center the images and add spacing below them */
+}
+
+/* Style the headings and paragraphs within columns */
 .bold-p {
   font-weight: bold;
 }
-.about-us-images {
-  height: 100px;
-}
 
-.justify-content-md-center {
-  padding-top: 40px;
-  padding-bottom: 5px;
-}
-.about-us {
-  padding-top: 30px;
-}
-.bg-info {
-  background-color: #6098cc !important;
+.promoting , .compassionate, .community {
+  margin-top: 10px;
 }
 
 /*contact form styling*/
